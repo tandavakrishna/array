@@ -26,7 +26,7 @@ int main()
     }   
     arr[pos-1]=val;
     n+=1;
-    cout<<"array after inserting the elements"<<endl;
+    cout<<"finally the elements in the array"<<endl;
     for(int k=0;k<n;k++)
     {
         cout<<arr[k]<<endl;
