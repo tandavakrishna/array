@@ -17,7 +17,6 @@ int main()
     cin>>pos>>val;
     for(int j=n+1;j>=pos-1;j--)
     {
-        cout<<arr[j]<<"  "<<arr[j+1];
         arr[j]=arr[j-1];
         
     }   
