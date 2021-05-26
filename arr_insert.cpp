@@ -15,6 +15,10 @@ int main()
     }
     cout<<"enter position and value"<<endl;
     cin>>pos>>val;
+    if(n==c)
+    {
+        cout<<"the array is full";
+    }
     for(int j=n+1;j>=pos-1;j--)
     {
         arr[j]=arr[j-1];
