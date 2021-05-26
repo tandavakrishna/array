@@ -17,7 +17,7 @@ int main()
     cin>>pos>>val;
     if(n==c)
     {
-        cout<<"the array is full";
+        cout<<"the array is full"<<endl;
     }
     for(int j=n+1;j>=pos-1;j--)
     {
