@@ -20,6 +20,11 @@ int main()
     }
     cout<<"enter position and value"<<endl;
     cin>>pos>>val;
+    if(pos-1>c)
+    {
+        cout<<"the position is out of range of the array";
+        exit(0);
+    }
     
     for(int j=n+1;j>=pos-1;j--)
     {
