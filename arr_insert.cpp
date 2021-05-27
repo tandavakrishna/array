@@ -13,12 +13,14 @@ int main()
     {
         cin>>arr[i];
     }
-    cout<<"enter position and value"<<endl;
-    cin>>pos>>val;
     if(n==c)
     {
         cout<<"the array is full"<<endl;
+        exit(0);
     }
+    cout<<"enter position and value"<<endl;
+    cin>>pos>>val;
+    
     for(int j=n+1;j>=pos-1;j--)
     {
         arr[j]=arr[j-1];
