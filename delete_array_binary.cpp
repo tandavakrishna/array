@@ -3,9 +3,7 @@ using namespace std;
 int search(int val,int arr[],int first,int end)
 {
     int mid=(first+end)/2;
-    if(end==mid || first==mid)
-    return -1;
-    else if(val==arr[mid])
+    if(val==arr[mid])
     {
         return mid;
     }
@@ -17,6 +15,8 @@ int search(int val,int arr[],int first,int end)
     {
         return search(val,arr,first,mid-1);       
     }
+ 
+    return -1;
     
 
 }
