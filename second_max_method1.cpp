@@ -22,7 +22,11 @@ int main()
     		max2=arr[i];
 		}	
 	}
-
+         if(max1==-1)
+	 {
+		 cout<<"there is no second largest element";
+		 exit(0);
+	 }
 	cout<<"the second largest number is  "<<max2;
     return 0;
 }
